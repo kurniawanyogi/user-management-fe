@@ -1,0 +1,40 @@
+.loginPage {
+    background: url('Images/employeems.jpeg');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employeems.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(1, 32, 93, 0.6);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background-color: #0056b3; /* Darken the button color on hover */
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.btn-register {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.btn-register:hover {
+    background-color: #e2e6ea;
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
