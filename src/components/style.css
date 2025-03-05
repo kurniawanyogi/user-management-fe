@@ -1,3 +1,4 @@
+/* Styling untuk halaman login */
 .loginPage {
     background: url('Images/employeems.jpeg');
     background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employeems.jpeg");
@@ -26,6 +27,7 @@ button:active {
     transform: translateY(0);
 }
 
+/* Styling untuk button register */
 .btn-register {
     background-color: #ffffff;
     color: #007bff;
@@ -38,3 +40,70 @@ button:active {
     border-color: #0056b3;
 }
 
+/* Styling untuk container input dengan mata */
+.input-group {
+    position: relative;
+}
+
+/* Tombol eye */
+.btn-eye {
+    position: absolute;
+    right: 10px; /* Menempatkan tombol di sisi kanan */
+    top: 50%;
+    transform: translateY(-50%); /* Menyelaraskan tombol secara vertikal di tengah */
+    background: transparent; /* Background transparan */
+    border: none; /* Tidak ada border */
+    cursor: pointer; /* Menampilkan pointer saat hover */
+    padding: 0; /* Menghilangkan padding agar tombol tidak bergerak */
+    display: flex; /* Agar tombol tetap di tengah */
+    align-items: center; /* Memastikan ikon tetap di tengah secara vertikal */
+}
+
+/* Opsional: Hindari hover effects yang mengubah ukuran atau posisi tombol */
+.btn-eye:hover {
+    background: transparent;
+    color: inherit; /* Tetap menggunakan warna default */
+}
+
+.modal-container {
+    position: fixed;  /* Pastikan modal terpasang di posisi tetap */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparan dengan latar belakang gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050; /* Pastikan modal berada di atas elemen lainnya */
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px; /* Sesuaikan ukuran modal */
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-ok-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-ok-btn:hover {
+    background-color: #0056b3;
+}
