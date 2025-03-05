@@ -1,12 +1,48 @@
-# React + Vite
+# Frontend - User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Description
+This is the frontend application for the Employee Management System built with React.
 
-Currently, two official plugins are available:
+### Features
+- **User Authentication**: Login functionality with JWT token-based authentication.
+- **User Management**: View, add, update, and delete user data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Before you begin, ensure that you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/en/) version 16 or later
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) package manager
+
+---
+
+### Installation
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/employee-management-system-frontend.git
+   ```
+
+2. **Install Dependencies**
+
+   After cloning the project, navigate to the project directory and install the required dependencies by running:
+   ```bash
+   npm install
+   ```
+   
+3. **Configure environment**
+   
+   update your server_host at [.env](.env)
+
+
+4. **Run project**
+
+   Once everything is configured, you can run the application in development mode:
+   ```bash
+   npm run dev
+   ```
