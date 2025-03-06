@@ -1,7 +1,7 @@
 # Frontend - User Management System
 
 ### Description
-This is the frontend application for the Employee Management System built with React.
+This is the frontend application for the User Management System built with React.
 
 ### Features
 - **User Authentication**: Login functionality with JWT token-based authentication.
@@ -25,7 +25,7 @@ Before you begin, ensure that you have the following installed on your machine:
    Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/employee-management-system-frontend.git
+   git clone https://github.com/kurniawanyogi/user-management-fe.git
    ```
 
 2. **Install Dependencies**
